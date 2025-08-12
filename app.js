@@ -4,7 +4,7 @@ titulo.innerHTML = 'Jogo do numero secreto.';
 mensagem.innerHTML = 'selecione um numero de 1 a 100.';*/
 
 let numerosSorteados = [];
-let limiteSorteio = 100;
+let limiteSorteio = 50;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
@@ -19,7 +19,7 @@ function inserirCampoMensagem(tag, mensagem){
 function mensagemInicial(){
     
     inserirCampoMensagem('h1', 'jogo do numero secreto');
-    inserirCampoMensagem('p', 'selecione um numero de 1 a 100');
+    inserirCampoMensagem('p', 'selecione um numero de 1 a 50');
 }
 
 mensagemInicial();
