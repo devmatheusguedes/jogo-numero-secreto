@@ -9,7 +9,7 @@ git remote add origin git@github.com:SEU_USUARIO/SEU_REPOSITORIO -> conectando o
 
 git push -u origin main -> enviando as alterações feitas no repositorio local para o repositorio remoto
 
-git revert (id_commit) -> volta para o repositorio anterior ao repositorio dono do id_commit passado no comando. (não exlcui o commit)
+git revert (id_commit) -> volta para o repositorio anterior ao repositorio dono do id_commit passado no comando. (não exlcui o commit)q
 
 Nessa aula, você aprendeu como:"
 
